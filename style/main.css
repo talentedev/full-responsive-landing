@@ -62,6 +62,13 @@ body {
 	color: #006f9e;
 	font-family: 'Open Sans Bold';
 }
+.phone-number a{
+	cursor: pointer;
+	text-decoration: none;
+}
+.address a{
+	color: #666;
+}
 
 /* Banner Section */
 .banner {
@@ -179,6 +186,13 @@ video {
 	color: #00709E;
 	text-align: left;
 }
+.arms-comment {
+	margin-top: 1em;
+	font-size: 18px;
+	color: #666;
+}
+
+/* Person call section*/
 .person-call {
 	width: 80%;
 	margin-left: 10%;
@@ -198,6 +212,10 @@ video {
 	border-radius: 30px;
 	padding: 0 3em;
 	margin-top: 2em;
+}
+.person-call button a {
+	color: white;
+	text-decoration: none;
 }
 
 /* Institute Section */
@@ -224,14 +242,11 @@ video {
 	margin-left: 20%;
 	margin-top: 1em;
 	text-align: justify;
+	background: transparent;
 }
-.room {
-	width: 23%;
-	float: left;
-	margin-left: 2.6%;
-}
-.rooms img:first-child {
-	margin-left: 0;
+.rooms div {
+	padding-right: 2px;
+	padding-left: 2px;
 }
 
 /***************************************************** Max Width : 1200px ***********************************************************/
@@ -428,6 +443,9 @@ video {
 	.arms {
 		font-size: 15px;
 		margin-top: 1em;
+	}
+	.arms-comment {
+		font-size: 14px;
 	}
 	.person-call {
 		font-size: 13px;
